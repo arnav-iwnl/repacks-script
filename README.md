@@ -1,4 +1,4 @@
-# Selenium Download Button Clicker (CLI)
+# Selenium Download Button Clicker for FUCKINGFAST.co
 
 Automate clicking “Download” buttons across one or more pages using Selenium + Chrome.
 
@@ -97,6 +97,11 @@ Options (with defaults):
 
 
 ## Examples
+
+Example I used: 
+```bash
+python selenium_downloader_fixed.py --input-txt pastebin.txt --out "D:\Downloads" --headless --session-refresh 5
+```
 
 Basic scrape + download (headless):
 
