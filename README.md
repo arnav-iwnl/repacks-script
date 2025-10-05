@@ -1,4 +1,4 @@
-# Selenium Download Button Clicker for FUCKINGFAST.co
+# Selenium Scraping for FUCKINGFAST.co
 
 Automate clicking “Download” buttons across one or more pages using Selenium + Chrome.
 
