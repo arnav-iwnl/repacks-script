@@ -512,8 +512,8 @@ def click_download_button(driver: webdriver.Chrome, page_url: str, download_dir:
             # else:
             #     console.print(f"  [yellow]⚠️ Extraction failed for: {completed}[/yellow]")
             # return True
-
-        console.print("  [yellow]⚠️ Download timeout or didn't start[/yellow]")
+        else:
+         console.print("  [yellow]⚠️ Download timeout or didn't start[/yellow]")
         return False
 
     except Exception as e:
